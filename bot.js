@@ -11,7 +11,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'help') {
-    	message.reply('Help is on its way! :cat:');
+    	message.reply('On its way!');
   	}
 });
 
